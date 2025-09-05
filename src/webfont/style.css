@@ -1,0 +1,44 @@
+@font-face {
+  font-family: 'Myriad Pro';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Myriad Pro Regular'), url('MYRIADPRO-REGULAR.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Myriad Pro';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Myriad Pro Light'), url('MyriadPro-Light.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Myriad Pro';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Myriad Pro Semibold'),
+    url('MYRIADPRO-SEMIBOLD.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Myriad Pro';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Myriad Pro Bold'), url('MYRIADPRO-BOLD.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Myriad Pro';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Myriad Pro Bold Italic'),
+    url('MYRIADPRO-BOLDIT.woff') format('woff');
+}
+@font-face {
+  font-family: 'dearJoe';
+  src: url('DearJoe5CASUAL.woff2') format('woff2'),
+    url('DearJoe5CASUAL.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}

@@ -695,14 +695,19 @@ header {
 @media (min-width: 992px) {
 }
 @media (min-width: 992px) and (max-width: 1199.98px) {
-  .winnen .winnenImage {
-    display: none;
-  }
   .hero .heroLeft h1,
   .hero .heroLeft .h1,
   .hero h2,
   .hero .h2 {
     font-size: 48px;
+  }
+  .onze .onzeList {
+    margin-right: auto;
+  }
+  .winnen .winnenItem,
+  .winnen .winnenItem hr {
+    margin-left: 0;
+    text-align: left;
   }
   .onze .onzeImage {
     bottom: -286px;
@@ -748,12 +753,32 @@ header {
   .powerBI .powerBIItem p {
     max-width: 100%;
   }
+  .powerBI .powerBIImage,
+  .onze .onzeImage,
+  .winnen .winnenImage {
+    width: 90%;
+    position: static;
+    margin-bottom: 40px;
+  }
+  .winnen .winnenImage {
+    margin-left: auto;
+  }
 }
 
 /*// Medium devices (tablets, 768px and up)*/
 @media (max-width: 991.98px) {
   .bgCarved:after {
     height: 160px;
+  }
+  .powerBI .powerBIImage,
+  .onze .onzeImage,
+  .winnen .winnenImage {
+    width: 90%;
+    position: static;
+    margin-bottom: 40px;
+  }
+  .winnen .winnenImage {
+    margin-left: auto;
   }
   .voor {
     padding-top: 80px;
@@ -773,10 +798,6 @@ header {
   }
   header {
     padding: 12px 0;
-  }
-  .onze .onzeImage,
-  .winnen .winnenImage {
-    display: none;
   }
   .onze,
   .winnen {
